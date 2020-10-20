@@ -42,4 +42,20 @@ miApellido(); */
 
 /* HOISTING */
 // Cuando las variables y funciones se procesan antes que el código
- 
+// -llamar / declarar / inicializar
+
+/* COERCIÓN */
+//Coerción es la forma en la que podemos cambiar un tipo de valor a otro.
+//1- implícita: lenguaje nos ayuda a cambiar el tipo de valor.
+//2- explícita: obligamos a que cambie el tipo de valor. 
+
+/* TRUTHY AND FALSY */
+// Verdadero o falso (Boolean). Validar.
+/* Operadores */
+//Operación: +,-,*, /, Binarios. 
+//Comparación: =, ==(comparar), ===(Validar que sean estrictamente iguales), < (menor), >(mayot), <=(menor o igual), >=(mayor o igual).
+//&&(Ampersent = si las dos son iguales se cumple la condición; si no, no se cumple = a && b ). / 
+// || (o) =  a || b = Se cumple si alguna de las dos es verdad. /
+// ++ (incrementar un valot ).
+
+/* CONDICIONALES */
