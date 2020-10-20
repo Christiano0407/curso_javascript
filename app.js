@@ -56,6 +56,72 @@ miApellido(); */
 //Comparación: =, ==(comparar), ===(Validar que sean estrictamente iguales), < (menor), >(mayot), <=(menor o igual), >=(mayor o igual).
 //&&(Ampersent = si las dos son iguales se cumple la condición; si no, no se cumple = a && b ). / 
 // || (o) =  a || b = Se cumple si alguna de las dos es verdad. /
-// ++ (incrementar un valot ).
+// ++ (incrementar un valot ) / != (No son iguales).
 
 /* CONDICIONALES */
+//if / else / else if.
+/* if() {
+    ejecución
+} else if() {
+
+}else  */
+
+//1-
+/* var uno = 10;
+
+if(uno == 10) {
+    console.log("Eso es verdad")
+}else {
+    console.log("No!")
+}
+
+function hambre() {
+    let desayuno = "8am";
+
+    if (desayuno = "8am" ) {
+        console.log("Ok!")
+    }else {
+        console.log("Mas tarde porfa!")
+    }
+}
+hambre(); */
+
+/* 1) Piedra / Papel / Tijera */
+
+/* var op1 = "Piedra";
+var op2 = "Papel";
+var op3 = "tijera";
+function juego(persona, cpu) {
+  if(persona != cpu) {
+      if(persona === op1 && cpu === op3){
+          console.log("Gana persona")
+        }else if(persona === op2 && cpu === op3) {
+            console.log("Gana la compu")
+        }else if(persona === op3 && cpu === op2)  {
+      console.log("Gana persona y pierde papel")
+  }else {
+    console.log("Nadie gana! Empate!")
+    }
+  }
+}
+juego(op1,op3); */
+
+/* 2) compras */
+/*     let verdura = "Zanahoria";
+    let fruta = "Manzana";
+    let chatarra = "Papas fritas";
+
+function compras(hijo, hija) {
+    if(hijo != hija) {
+        if (hijo === verdura && hija === chatarra){
+            console.log("Mi hijo come mejor")
+        }else if(hijo === chatarra && hija === fruta) {
+           console.log("Mi hija le gusta mucho!")
+        } else if(hijo === verdura && hija === fruta) {
+        console.log("Comen sano")
+        }else{
+         console.log("Comen muy mal")
+        }
+    }
+}
+compras(chatarra, fruta); */
