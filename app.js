@@ -30,3 +30,16 @@ miDesayuno("Manzana"); */
 sumar(15, 5); */
 
 /* SCOOPE (VAR/LET/CONST) */
+//Variable local sí puede acceder a global pero, no de global a local
+
+/* var miNombre = "Chris";
+
+function miApellido() {
+    let apellido = "Velázquez";
+    console.log(miNombre + " " + apellido);
+} 
+miApellido(); */
+
+/* HOISTING */
+// Cuando las variables y funciones se procesan antes que el código
+ 
