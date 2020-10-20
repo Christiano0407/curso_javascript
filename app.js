@@ -56,7 +56,7 @@ miApellido(); */
 //Comparación: =, ==(comparar), ===(Validar que sean estrictamente iguales), < (menor), >(mayot), <=(menor o igual), >=(mayor o igual).
 //&&(Ampersent = si las dos son iguales se cumple la condición; si no, no se cumple = a && b ). / 
 // || (o) =  a || b = Se cumple si alguna de las dos es verdad. /
-// ++ (incrementar un valot ) / != (No son iguales).
+// ++ (incrementar un valot ) / != (No son iguales) / += / -=.
 
 /* CONDICIONALES */
 //if / else / else if.
@@ -125,3 +125,19 @@ function compras(hijo, hija) {
     }
 }
 compras(chatarra, fruta); */
+
+/* SWITCH */
+//Validar condición / casos.
+ 
+/* var number = 4;
+switch (number) {
+    case 4:
+    console.log("Soy el four");
+    break;
+    case 1:
+        console.log("No! Soy el One");
+        break;
+        default:
+            console.log("Demonios");
+} */
+
