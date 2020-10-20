@@ -47,5 +47,12 @@ for(i = 0; i < comida.length; i++) {
 /* B) While (mientras...)*/
 
 /* OBJECTS */
-//lLEVAR UN OBJECTO FÍSICO A PARADIGMAS DE PROGRAMACIÓN.
+//lLEVAR UN OBJECTO FÍSICO (propiedades) A PARADIGMAS DE PROGRAMACIÓN.
+//"{} "
+//var object = {propiedades}; 
+// var miAuto = {marca:"Audi", año: 1992}:
+//acceder a la propiedad => miAuto.marca;
+//${`this.marca`} => Una variable que hace referencia al objecto (var);
 
+/* Object:Función Constructora */
+//
