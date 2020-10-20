@@ -14,3 +14,38 @@
 /* LOOPS / FOR / FOR OF (CICLOS) */
 
 //sON Ciclos
+
+//1)
+/* var estudiantes = ["Luisa", "Mauricio", "Mariana", "Alma"];
+
+function saludarEstudiantes(estudiante) {
+    console.log(`Hola, ${estudiante} `);
+}
+
+for(i = 0; i < estudiantes.length; i++) {
+    saludarEstudiantes(estudiantes[i]);
+} */
+
+/*  let comida = ["Arroz", "Pollo", "Verduras", "Frutas", "Frijoles"];
+
+function miComida(plato) {
+   console.log(`Es un platillo, ${plato} `);
+
+   if(plato === "Arroz") {
+       console.log("Agrega plátano, porfa!")
+   }else if (plato === "Verduras") {
+       console.log("Muy poca verdura. Gracias!")
+   } else {
+       console.log("Ya no tenemos más")
+   }
+}
+//loop
+for(i = 0; i < comida.length; i++) {
+    miComida(comida[i]);
+}  */
+
+/* B) While (mientras...)*/
+
+/* OBJECTS */
+//lLEVAR UN OBJECTO FÍSICO A PARADIGMAS DE PROGRAMACIÓN.
+
