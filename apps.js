@@ -112,6 +112,9 @@ for(i = 0; i <= menus.length; i++) {
 //find() = Encontrar algo.
 //forEach() = filtrar por elemento y te regrsa una acción.
 //some() = Verdadero o falso para los que cumplan la function
+//shift()
+//pop()
+//push()
 
 /* Ejercicio 1 */
 /* var productos = [
