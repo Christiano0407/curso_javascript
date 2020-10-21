@@ -47,3 +47,13 @@ let totales = Math.ceil(precioBat);
 let pago = Math.floor(precioBat);
 let pagos = Math.random(precioBat);
 let cheque = Math.trunc(precioBat); */
+
+/* FUNCTIONS */
+//() = Agregar Parámetros dentro de la function.
+
+/* let persona = "Natasha";
+function miPersona(n, a) {
+    console.log(`Yo soy ${n} ${a}`)
+}
+miPersona("Pammela", "Velázquez");
+miPersona = new miPersona("Miranda", "Morales"); */
