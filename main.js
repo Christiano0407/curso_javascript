@@ -21,3 +21,29 @@ let apellidoMenor = apellido.toLowerCase(); */
 /* let nombreCompleto = `${name} ${apellido.toUpperCase()}` */
 //subString
 /* let str = name.substr(1, 3); */
+
+/* NÚMEROS / OPERADORES */
+// "+=" (más igual)/ "-", "+", "*", "/" / "++", "+=", "-=".
+
+/* let edad = 28;
+edad += 1; */
+/* let peso = 80;
+let torta = 2;
+peso = peso -= torta; */
+
+/* MATH  = es un objeto con propiedades y métodos */
+//1)Propiedades
+//Math.PI = 3.14159.
+//B) Métodos
+//.round = redondear al número entero más cercano.
+//.ceil = devuelve el entero, mayor o igual de un número.
+//.floor = Devuelve el mayor entero o menor que o igual.
+//.random(aleatorio) = Devuelve un número pseudo-aleatorio entre 0 y 1.
+//trunc = Devuelve la parte entera del número (eliminación de los números fraccionarios).
+
+/* let precioBat = 50.5;
+let total = Math.round(precioBat);
+let totales = Math.ceil(precioBat);
+let pago = Math.floor(precioBat);
+let pagos = Math.random(precioBat);
+let cheque = Math.trunc(precioBat); */
