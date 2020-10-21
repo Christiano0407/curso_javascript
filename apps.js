@@ -117,7 +117,7 @@ for(i = 0; i <= menus.length; i++) {
 //push()
 
 /* Ejercicio 1 */
-/* var productos = [
+var productos = [
     {nombre: "Laptop", costo: 12000},
     {nombre: "Mouse", costo: 600},
     {nombre: "Teclado Gamming", costo: 1800},
@@ -126,11 +126,11 @@ for(i = 0; i <= menus.length; i++) {
     {nombre: "Disco duro", costo: 1200},
     {nombre: "Cámara Reflex", costo: 18000},
     {nombre: "Audífonos Gamming", costo: 1100},
-]; */
+]; 
 
-/* var misProductos = productos.filter(function(articulo) {
+ var misProductos = productos.filter(function(articulo) {
     return articulo.costo >= 12000;
-}) */
+}) 
 /* var misProductos = productos.find(function(articulo) {
     return articulo.nombre === "Laptop"
 }); */
