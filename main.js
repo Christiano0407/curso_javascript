@@ -57,3 +57,21 @@ function miPersona(n, a) {
 }
 miPersona("Pammela", "Velázquez");
 miPersona = new miPersona("Miranda", "Morales"); */
+
+/* OBJECTS */
+// {} Tienen propiedades / clave (nombre:) y valor("Alma").
+/* const personal = {
+    nombre: "Alma",
+    apellido: "Rosas",
+    edad: 24,
+    País: "México",
+}
+function miPersonal({nombre}) {
+console.log(nombre);
+}
+miPersonal(personal); */
+
+//Desestructurar Objects
+
+/* COMPARACIONES EN JS */
+
