@@ -56,3 +56,51 @@ for(i = 0; i < comida.length; i++) {
 
 /* Object:Función Constructora */
 //
+/* function auto(marca, modelo, date) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.date = date;
+}
+
+var miAuto = new auto("bmw", "W-360", 2022);
+var nuevoAuto = new auto("Mercedes", "HX99", 2023); */
+
+/* Ejercicio */
+//function constructora
+/* function auto(marca, modelo, date) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.date = date;
+}
+
+var autos = [];
+for(let i = 0; i < 5; i++) {
+var marca = prompt("Ingresa la marca del auto");
+var modelo = prompt("Ingresa el modelo del auto");
+var date = prompt("Ingresa el año");
+autos.push(new auto(marca, modelo, date));
+}
+
+for(let i = 0; i < autos.length; i++) {
+    console.log(autos[i]);
+} */
+
+//2) 
+/* function menu(sopa, entrada, postre) {
+        this.sopa = sopa;
+        this.entrada = entrada;
+        this.postre = postre;
+}
+
+var menus = [];
+
+for (i = 0; i <= 3; i++) {
+    let sopa = prompt("Qué sopa..?");
+    let entrada = prompt("Entrada..?");
+    let postre = prompt("Qué desea de postre...?");
+    menus.push(new menu(sopa, entrada, postre));
+}
+
+for(i = 0; i <= menus.length; i++) {
+    console.log(menus[i]);
+} */
