@@ -73,5 +73,6 @@ miPersonal(personal); */
 
 //Desestructurar Objects
 
-/* COMPARACIONES EN JS */
+/* COMPARACIONES EN JS OPERADORES*/
+// "==" / "===" / "<=" / ">=" / "!=" / "&&" / "||" .
 
