@@ -104,3 +104,36 @@ for (i = 0; i <= 3; i++) {
 for(i = 0; i <= menus.length; i++) {
     console.log(menus[i]);
 } */
+
+/* Métodos de recorridos con Array */
+//objetos dentro del array.
+//filter(verdadero o falso) / agregar sólo los que cumplen con la validación pedida.
+//map (mapear artículos).
+//find() = Encontrar algo.
+//forEach() = filtrar por elemento y te regrsa una acción.
+//some() = Verdadero o falso para los que cumplan la function
+
+/* Ejercicio 1 */
+/* var productos = [
+    {nombre: "Laptop", costo: 12000},
+    {nombre: "Mouse", costo: 600},
+    {nombre: "Teclado Gamming", costo: 1800},
+    {nombre: "Pantalla Gamming", costo: 15000},
+    {nombre: "SSD", costo: 1500},
+    {nombre: "Disco duro", costo: 1200},
+    {nombre: "Cámara Reflex", costo: 18000},
+    {nombre: "Audífonos Gamming", costo: 1100},
+]; */
+
+/* var misProductos = productos.filter(function(articulo) {
+    return articulo.costo >= 12000;
+}) */
+/* var misProductos = productos.find(function(articulo) {
+    return articulo.nombre === "Laptop"
+}); */
+/* productos.forEach(function(articulo) {
+    console.log(articulo.nombre)
+}); */
+/* var misProductos = productos.some(function(articulo) {
+    return articulo.costo < 1200
+}); */
