@@ -76,3 +76,47 @@ miPersonal(personal); */
 /* COMPARACIONES EN JS OPERADORES*/
 // "==" / "===" / "<=" / ">=" / "!=" / "&&" / "||" .
 
+/* ARRAY */
+let paula = {
+    nombre: "Paula",
+    apellido: "Rosas",
+    edad: 22,
+    ciudad: "CDMX",
+}
+
+let fausto = {
+    nombre: "Fausto",
+    apellido: "Medel",
+    edad: 32,
+    ciudad: "Toronto, Canadá",
+}
+
+let rodrigo = {
+    nombre : "Rodrigo",
+    apellido : "Medel",
+    edad: 30,
+    ciudad: "Sydney, Australia",
+}
+
+let kader = {
+    nombre: "Kader",
+    apellido: "Velázquez",
+    edad: 25,
+    ciudad: "New York",
+}
+
+
+/* for(i = 0; i < personas.length; i++) {
+    let personal = personas[i]
+    console.log(`Soy ${personal.nombre} ${personal.apellido} y soy ${personal.ciudad} `);
+} */
+
+//Filtrar Array
+// filter().
+/* let personas = [kader, rodrigo, fausto, paula];
+const esGrande = (persona) => {
+    return persona.edad <28;
+}
+let edades = personas.filter(esGrande);
+console.log(edades); */
+
