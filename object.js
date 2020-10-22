@@ -10,6 +10,7 @@
 //No es un objeto, es un modelo que define las características que un objeto debería tener.
 //instancias de objetos = datos y funcionalidades. 
 // new = crear nuevos objetos o prototipos. 
+//se agrega un CONSTRUCTOR (Método).
 /* Prototype */
 //agregar una nueva función o constructor / objeto.
 //Los objetos heredan características entre si.
@@ -71,3 +72,16 @@ fiesta.prototype.saludo = function() {
 
 let fiestas = new fiesta("Salón 8", "CDMX");
 fiestas.saludo(); */
+//Herencia Prototipal.
+//CLASS
+/* class persona {
+constructor(name, age) {
+    this.name = name;
+    this.age = age;
+}
+}
+
+let personas = new persona("Azucena", 32);
+console.log(`Hola, yo soy ${personas.name} y tengo ${personas.age}`); */
+
+/* ASINCRONISMO */
