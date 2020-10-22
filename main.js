@@ -77,7 +77,7 @@ miPersonal(personal); */
 // "==" / "===" / "<=" / ">=" / "!=" / "&&" / "||" .
 
 /* ARRAY */
-let paula = {
+/* let paula = {
     nombre: "Paula",
     apellido: "Rosas",
     edad: 22,
@@ -103,7 +103,7 @@ let kader = {
     apellido: "Velázquez",
     edad: 25,
     ciudad: "New York",
-}
+} */
 
 
 /* for(i = 0; i < personas.length; i++) {
@@ -119,4 +119,13 @@ const esGrande = (persona) => {
 }
 let edades = personas.filter(esGrande);
 console.log(edades); */
+//map() = modifica cada elemento, mapea.
+/* let personas = [kader, rodrigo, fausto, paula]; */
 
+/* let amigos = personas.map(function(amigo) {
+  console.log(amigo);
+})  */
+/* console.log(personas[0]); */
+/* personas.forEach(function(persona) {
+   console.log(persona);
+}) */
