@@ -87,11 +87,23 @@ console.log(`Hola, yo soy ${personas.name} y tengo ${personas.age}`); */
 /* ASINCRONISMO */
 //Asincrónico: Ejecuta código y el resultado se devuelve tan pronto como el navegador puede hacerlo. 
 //Aync y Awayt
+//Promesas / "xhr".
 //Hilos: Realiza una tarea a la vez(secuencialmentes).
 //HACER MÁS COSAS A LA VEZ COMO CON UNA API.
+//Callback (función que js usa para el navegador para ejecutar la función).
+//Event Loop
+//API = Ayuda integrar un Frontend y un Backend /Acceder a una base de datos y devolver datos desde el. 
+//Fetch
+//XMLHttpRequest("xhr").
+//ajax
 
 //ejem 1)
 /* const btn = document.getElementById(`btn`);
 btn.addEventListener(`click`, () => {
     alert("You Clicked Me");
 }) */
+//2)
+/* console.log("a")
+setTimeout(() => {
+console.log("b")
+}, 2000) */
