@@ -87,7 +87,7 @@ console.log(`Hola, yo soy ${personas.name} y tengo ${personas.age}`); */
 /* ASINCRONISMO */
 //Asincrónico: Ejecuta código y el resultado se devuelve tan pronto como el navegador puede hacerlo. 
 //Aync y Awayt
-//Promesas / "xhr".
+//Promesas / fetch() = versión moderna a "XHR" /
 //Hilos: Realiza una tarea a la vez(secuencialmentes).
 //HACER MÁS COSAS A LA VEZ COMO CON UNA API.
 //Callback (función que js usa para el navegador para ejecutar la función).
@@ -96,6 +96,10 @@ console.log(`Hola, yo soy ${personas.name} y tengo ${personas.age}`); */
 //Fetch
 //XMLHttpRequest("xhr").
 //ajax
+//Request() => (Solicitud) => Constructor / nuevo object. 
+//FETCH() => Es un Método /OBTENER UN RECURSO DE LA RED y DEVUELVE UNA PROMESA => "WindowOrWorkerGlobalScope".
+//=> Sólo se rechaza cuando tiene un error de RED. / then()=> verifica sus propiedad.  
+//GET / POST /
 
 //ejem 1)
 /* const btn = document.getElementById(`btn`);
