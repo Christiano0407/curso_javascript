@@ -85,3 +85,13 @@ let personas = new persona("Azucena", 32);
 console.log(`Hola, yo soy ${personas.name} y tengo ${personas.age}`); */
 
 /* ASINCRONISMO */
+//Asincrónico: Ejecuta código y el resultado se devuelve tan pronto como el navegador puede hacerlo. 
+//Aync y Awayt
+//Hilos: Realiza una tarea a la vez(secuencialmentes).
+//HACER MÁS COSAS A LA VEZ COMO CON UNA API.
+
+//ejem 1)
+/* const btn = document.getElementById(`btn`);
+btn.addEventListener(`click`, () => {
+    alert("You Clicked Me");
+}) */
