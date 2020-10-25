@@ -117,7 +117,23 @@ helloPromise()
 }
 const calc = new calculator();
 console.log(calc.sum(20, 10)); */
+
 //Módulos: crear otro archivo de javascript. / export e import.
 /* import  hello  from `../js/modules.js`;
 hello(); */
+
+//Generators: "yield / *"
+/* function* helloWorld() {
+    
+    if(true) {
+        yield `Hello, `
+    }
+    if(true) {
+        yield `world`
+    }
+};
+
+const generatorHello = helloWorld();
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value); */
 
