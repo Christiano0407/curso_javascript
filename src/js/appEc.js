@@ -72,7 +72,8 @@ console.log(obj); */
 //arrow function > () => {}; / const list = name => {}
 
 //PROMESAS: Asincronismo.
-//ARREGLAR LOS "COLLBACKS".
+//ARREGLAR LOS "CALLBACKS".
+//API WEB = DEVUELVEN UNA PROMESA.
 //RESOLVE O REJECT.
 //.then / .catch.
 /* const helloPromise = () => {
@@ -100,3 +101,23 @@ helloPromise()
  amigos()
  .then(response => console.log(response))
  .catch(error => console.log(error)) */
+
+ //CLASES / MÓDULOS / GENERADORES :
+ //constructor / this..
+/* class calculator {
+    constructor() {
+        this.valueA = 0;
+        this.valueB = 0;
+    } 
+    sum(valueA, valueB) {
+        this.valueA = valueA;
+        this.valueB = valueB;
+        return this.valueA + this.valueB;
+    }
+}
+const calc = new calculator();
+console.log(calc.sum(20, 10)); */
+//Módulos: crear otro archivo de javascript. / export e import.
+/* import  hello  from `../js/modules.js`;
+hello(); */
+
