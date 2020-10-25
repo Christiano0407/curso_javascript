@@ -55,5 +55,48 @@ amigos(); */
 
 //ARROW FUNCTIONS, PROMESAS, PARÁMETROS EN OBJETOS.
 
+//Queremos crear un objeto más grande.
+/* let name = "César";
+let apellido = "Camacho";
+obj = {name, apellido};
+console.log(obj); */
+//antes obj = {name:name, apellido: apellido};
 
+//ARROW:
+/*  const names = [
+     {name: "Kader", age: 23},
+     {name: "Chris", age: 28}
+ ]
+ let listOfNames = names.map(item => console.log(`Yo soy ${item.name}`)); */
+ //antes: let listOfNames = names.map(function(item) {console.log(item.name)});
+//arrow function > () => {}; / const list = name => {}
 
+//PROMESAS: Asincronismo.
+//ARREGLAR LOS "COLLBACKS".
+//RESOLVE O REJECT.
+//.then / .catch.
+/* const helloPromise = () => {
+    return new Promise((resolve, reject) => {
+        if(true) {
+            resolve(`Hey!`);
+        }else {
+            reject(`No`);
+        }
+    });
+}
+helloPromise()
+.then(response => console.log(response))
+.catch(error => console.log(error)) */
+ //2)
+/*  const amigos = (person1 = "Muricio", person2 = "Alma") => {
+    return new Promise ((resolve, reject) => {
+        if (person1 === "Mauricio" || person2 === "Alma") {
+          resolve(`Ellos son amigos`);
+        }else {
+            reject(`Ninguno lo es`);
+        }
+    })
+ }
+ amigos()
+ .then(response => console.log(response))
+ .catch(error => console.log(error)) */
